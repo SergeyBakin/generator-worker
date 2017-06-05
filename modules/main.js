@@ -137,7 +137,6 @@ function commonFunc(funcGenerator, funcListener, dopFunc, cb) {
 						if (err) {
 							return exit(_.isString(err) ? new Error(err) : err);
 						}
-						console.log('objParam',objParam);
 						if (objParam && _.isObject(objParam)) {
 							({isGenerator = isGenerator} = objParam);
 							if (isGenerator) {
