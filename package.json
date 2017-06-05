@@ -1,0 +1,17 @@
+{
+  "name": "generator-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appTimer.js",
+  "scripts": {
+    "test": "node appTimer.js"
+  },
+  "author": "Sergey Bakin",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.5",
+    "minimist": "^1.2.0",
+    "redis": "^2.7.1",
+    "underscore": "^1.8.3"
+  }
+}
